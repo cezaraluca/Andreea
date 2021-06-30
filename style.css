@@ -1,0 +1,73 @@
+.container {
+    width: 80%;
+    margin: 15px auto;
+  }
+
+  h2 {
+      margin-bottom: 4rem;
+      text-align: center;
+      color: darkred;
+  }
+
+  .btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+.btn-group button{
+    margin: 1rem;
+    background-color: darkred;
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu{ display: block; }
+
+ul.nav.navbar-nav {
+    border: 1px solid darkred;
+    border-radius: 4px;
+    padding: 20px 30px;
+    background-color: darkred;
+}
+
+ul li a{
+    color: white;
+    font-size: 1.5rem;
+}
+
+ul li a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+div.container-fluid {
+    position: relative;
+}
+
+ul.nav.navbar-nav {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 1;
+}
+
+.item {
+    color: darkred;
+    text-decoration: none;
+}
+
+.item:hover {
+    color: darkred;
+}
